@@ -1,0 +1,33 @@
+{
+  "name": "copilot-game",
+  "version": "1.0.0",
+  "description": "Rock, Paper, Scissors, Lizard, Spock written with the help of Copilot.",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "test": "jest"
+  },
+  "author": "Corey Tess",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.1",
+    "prompt": "1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/node": "7.14.7",
+    "@babel/preset-env": "7.14.7",
+    "babel-jest": "27.0.6",
+    "jest": "27.0.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}
