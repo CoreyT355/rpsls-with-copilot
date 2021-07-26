@@ -12,4 +12,4 @@ Simple command-line version of the game.
 ```npm run test```
 
 ## Why is this here?
-A blog post about this can be found here, 
+A blog post about this can be found [here](https://blog.rocketinsights.com/day-one-with-github-copilot)
